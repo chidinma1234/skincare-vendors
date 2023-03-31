@@ -16,7 +16,12 @@ body {
 }
 a {
   text-decoration: none;
+  color: hsl(210, 22%, 49%);
 }
+a:hover {
+  color: hsl(209, 61%, 16%);
+}
+
 img {
   width: 100%;
 }

@@ -25,7 +25,7 @@ const skinCare = [
     state: 'lagos',
     instagramLink: 'https://www.instagram.com/buybetter.ng/',
     instagramHandle: '@buybetter',
-    img: './images/item-3.png',
+    img: './images/item-3.jpg',
     desc: `This is one of the popular skincare stores that has a walk-in address, and also offers retail and wholesale price. Their store is located Wumego Crescent off Admiralty Road through christ avenue, Lekki Phase 1, Lagos. You can also shop via their website `,
   },
   {
@@ -88,7 +88,7 @@ const skinCare = [
     state: 'abuja',
     instagramLink: 'https://www.instagram.com/beautyfinds.ng/',
     instagramHandle: '@beautyfinds.ng',
-    img: './images/item-9.jpg',
+    img: './images/item-10.jpg',
     desc: ` They have various walk-in store and also a website.`,
   },
   {
@@ -198,7 +198,7 @@ const displayVendors = function (skinCareList) {
                         ${item.desc}</p>
                     
                     <p>You
-                        can find all the necessary information via their instagram handle <a href= "${item.instagramLink}">${item.instagramHandle}</a>
+                        can find all the necessary information via their instagram handle <a href= "${item.instagramLink}" class="link">${item.instagramHandle}</a>
                     </p>
                 </div>
             </article>`;
