@@ -65,7 +65,7 @@ p {
 .filter-btn {
   background: transparent;
   border-color: #c59d5f;
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
